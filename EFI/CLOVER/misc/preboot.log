@@ -1,0 +1,490 @@
+0:100  0:100  MemLog inited, TSC freq: 2594109576
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 27.10.2018,  18:9:2 (GMT)
+0:100  0:000  Starting Clover revision: 4513 on Lenovo EFI
+0:100  0:000  Build with: [Args: -mc --no-usb -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/user/src/edk2/Conf -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 5 | OS: 10.13.5 | XCODE: 9.4]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,5913A0DF-D3F2-4B2F-AB2E-87F5F55C29A3,0x28,0x64000) @D3ACA018
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:105  0:005  === [ Get Smbios ] ========================================
+0:111  0:006  Type 16 Index = 0
+0:111  0:000  Total Memory Slots Count = 2
+0:111  0:000  Type 17 Index = 0
+0:111  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:111  0:000  SmbiosTable.Type17->Size = 4096MB
+0:111  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:111  0:000  SmbiosTable.Type17->Vendor = Hynix/Hyundai
+0:111  0:000  SmbiosTable.Type17->SerialNumber = 0F4767A9
+0:111  0:000  SmbiosTable.Type17->PartNumber = HMT351S6EFR8C-PB  
+0:111  0:000  Type 17 Index = 1
+0:111  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:111  0:000  SmbiosTable.Type17->Size = 4096MB
+0:111  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:111  0:000  SmbiosTable.Type17->Vendor = Micron
+0:111  0:000  SmbiosTable.Type17->SerialNumber = E97AC259
+0:111  0:000  SmbiosTable.Type17->PartNumber = 16KTF51264HZ-1G6M1
+0:111  0:000  Boot status=0
+0:111  0:000  Running on: '23245QG' with board '23245QG'
+0:111  0:000  === [ GetCPUProperties ] ==================================
+0:111  0:000  CPU Vendor = 756E6547 Model=306A9
+0:111  0:000   The CPU supported SSE4.1
+0:111  0:000  BrandString = Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz
+0:111  0:000   The CPU supported turbo
+0:111  0:000  MSR 0x35               20004
+0:111  0:000  MSR 0xE2 before patch 1E008404
+0:111  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:111  0:000  MSR 0xCE              00080C10_E0011A00
+0:111  0:000  corrected FLEX_RATIO = 100000
+0:111  0:000  MSR 0x1B0             00000000
+0:111  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:111  0:000  MaxDiv/MinDiv: 26.0/12
+0:111  0:000  Turbo: 31/31/31/33
+0:111  0:000  Features: 0xBFEBFBFF
+0:111  0:000  Threads: 4
+0:111  0:000  Cores: 2
+0:111  0:000  FSB: 100 MHz
+0:111  0:000  CPU: 2600 MHz
+0:111  0:000  TSC: 2600 MHz
+0:111  0:000  PIS: 100 MHz
+0:111  0:000  ExternalClock: 25 MHz
+0:111  0:000  === [ GetDevices ] ========================================
+0:111  0:000  PCI (00|00:1D.00) : 8086 1E26 class=0C0320
+0:111  0:000  PCI (00|00:1A.00) : 8086 1E2D class=0C0320
+0:111  0:000  PCI (00|00:1C.00) : 8086 1E10 class=060400
+0:111  0:000  PCI (00|02:00.00) : 1180 E823 class=088001
+0:112  0:000  PCI (00|00:02.00) : 8086 0166 class=030000
+0:112  0:000   - GFX: Model=Intel HD Graphics 4000 (Intel)
+0:112  0:000  PCI (00|00:1F.00) : 8086 1E55 class=060100
+0:112  0:000  PCI (00|00:1C.01) : 8086 1E12 class=060400
+0:112  0:000  PCI (00|00:1C.02) : 8086 1E14 class=060400
+0:112  0:000  PCI (00|00:1F.02) : 8086 1E03 class=010601
+0:112  0:000  PCI (00|00:00.00) : 8086 0154 class=060000
+0:112  0:000  PCI (00|00:16.00) : 8086 1E3A class=078000
+0:112  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:112  0:000  PCI (00|00:16.03) : 8086 1E3D class=070002
+0:112  0:000  PCI (00|00:19.00) : 8086 1502 class=020000
+0:112  0:000   - LAN: 0 Vendor=Intel
+0:112  0:000  PCI (00|00:1B.00) : 8086 1E20 class=040300
+0:112  0:000  PCI (00|03:00.00) : 168C 002B class=028000
+0:112  0:000   - WIFI: Vendor=Atheros
+0:112  0:000  PCI (00|00:1F.03) : 8086 1E22 class=0C0500
+0:112  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:112  0:000  === [ GetDefaultSettings ] ================================
+0:112  0:000  Clover load options size = 0 bytes
+0:131  0:018  EFI\CLOVER\config.plist loaded: Success
+0:143  0:012  === [ GetListOfThemes ] ===================================
+0:144  0:000  - [00]: metal
+0:160  0:015  - [01]: bootcamp
+0:161  0:001  - [02]: embedded
+0:170  0:009  - [02]: random
+0:170  0:000  - [02]: mimi black
+0:171  0:001  - [03]: ThinkPad
+0:174  0:002  === [ Found config plists ] ===============================
+0:174  0:000  - config.plist
+0:178  0:003  - config2.plist
+0:178  0:000  === [ GetEarlyUserSettings ] ==============================
+0:178  0:000  Custom boot CUSTOM_BOOT_THEME (0x0)
+0:178  0:000  KextsToPatch: 8 requested
+0:178  0:000   - [00]: com.apple.driver.AppleAHCIPort (External icons patch) :: MatchOS: 10.12.x,10.13.x :: BinPatch :: data len: 8
+0:178  0:000   - [01]: com.apple.driver.AppleMikeyDriver (Patch Assertions) :: MatchOS: 10.11.x,10.12.x,10.13.x :: BinPatch :: data len: 16
+0:178  0:000   - [02]: com.apple.driver.AppleHDA (Patch Assertions) :: MatchOS: 10.11.x,10.12.x,10.13.x :: BinPatch :: data len: 16
+0:178  0:000   - [03]: com.apple.driver.AppleGraphicsDevicePolicy (Prevent AGDP from loading) :: MatchOS: 10.11.x,10.12.x,10.13.x :: BinPatch :: data len: 5
+0:178  0:000   - [04]: com.apple.driver.AppleAHCIPort (ALPM IO Error AppleAHCIPort) :: MatchOS: 10.13.x :: BinPatch :: data len: 4
+0:178  0:000   - patch disabled at config
+0:178  0:000   - [05]: com.apple.driver.usb.AppleUSBXHCI (USB 10.13.4+ by PMHeart) :: MatchOS: 10.13.4, 10.13.5 :: BinPatch :: data len: 10
+0:178  0:000   - [06]: com.apple.driver.usb.AppleUSBXHCI (USB 10.13.6 by PMHeart) :: MatchOS: 10.13.6 :: BinPatch :: data len: 10
+0:178  0:000   - [07]: com.apple.driver.usb.AppleUSBXHCIPCI (Change 15 port limit) :: MatchOS: 10.13.0,10.13.1,10.13.2,10.13.3 :: BinPatch :: data len: 4
+0:178  0:000  Default theme: metal
+0:178  0:000  === [ LoadDrivers ] =======================================
+0:187  0:009  Loading DataHubDxe-64.efi  status=Success
+0:201  0:013  Loading FSInject-64.efi  status=Success
+0:210  0:008  Loading SMCHelper-64.efi  status=Success
+0:219  0:008  Loading VBoxHfs-64.efi  status=Success
+0:228  0:008   - driver needs connecting
+0:228  0:000  Loading apfs.efi  status=Success
+0:243  0:015   - driver needs connecting
+0:243  0:000  Loading AppleImageCodec-64.efi  status=Success
+0:251  0:008  Loading AppleKeyAggregator-64.efi  status=Success
+0:260  0:008  Loading AppleUITheme-64.efi  status=Success
+0:269  0:008  Loading AptioMemoryFix.efi  status=Success
+0:279  0:009  Loading FirmwareVolume-64.efi  status=Success
+0:287  0:008  Loading HFSPlus.efi  status=Success
+0:296  0:008   - driver needs connecting
+0:296  0:000  Loading NTFS.efi  status=Success
+0:306  0:009   - driver needs connecting
+0:306  0:000  Loading EmuVariableUefi-64.efi  status=Success
+0:315  0:008  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:315  0:000  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:324  0:008  Loading PartitionDxe-64.efi  status=Success
+0:333  0:008   - driver needs connecting
+0:333  0:000  5 drivers needs connecting ...
+0:333  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:333  0:000  Partition driver loaded: 
+0:333  0:000  HFS+ driver loaded
+0:333  0:000  APFS driver loaded
+0:333  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+6:770  6:437  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+6:844  0:073  === [ InitScreen ] ========================================
+6:844  0:000  SetScreenResolution: 1366x768 - already set
+6:844  0:000  Console modes reported: 6, available modes:
+6:844  0:000   - [01]: 80x25
+6:844  0:000   - [03]: 170x40 (current mode)
+6:844  0:000   - [04]: 80x25
+6:844  0:000   - [05]: 100x31
+6:844  0:000   - [06]: 128x40
+6:844  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,5913A0DF-D3F2-4B2F-AB2E-87F5F55C29A3,0x28,0x64000)
+6:844  0:000  === [ GetMacAddress ] =====================================
+6:844  0:000  MAC address of LAN #0= 3C:97:0E:C2:16:61:
+6:844  0:000  MAC address of LAN #1= 3C:97:0E:C2:16:61:
+6:844  0:000  MAC address of LAN #2= 3C:97:0E:C2:16:61:
+6:844  0:000  === [ ScanSPD ] ===========================================
+6:844  0:000  SMBus device : 8086 1E22 class=0C0500 status=Success
+6:844  0:000  SMBus CmdReg: 0x3
+6:844  0:000  Scanning SMBus [8086:1E22], mmio: 0xF2524004, ioport: 0xEFA0, hostc: 0x1
+6:844  0:000  Slots to scan [8]...
+6:845  0:000  SPD[0]: Type 11 @0x50
+6:864  0:019  Not using XMP because it is not present
+6:864  0:000  DDR speed 1600MHz
+6:864  0:000  Slot: 0 Type 24 4096MB 1600MHz Vendor=SK Hynix PartNo=HMT351S6EFR8C-PBN0 SerialNo=000F040706070A09
+6:865  0:000  SPD[1]: Type 11 @0x51
+6:884  0:019  Not using XMP because it is not present
+6:884  0:000  DDR speed 1600MHz
+6:884  0:000  Slot: 1 Type 24 4096MB 1600MHz Vendor=Micron Technology PartNo=16KTF51264HZ-1G6M1M1 SerialNo=0E09070A0C020509
+6:885  0:000  SPD[4]: Type 82 @0x54
+6:886  0:000  SPD[5]: Type 82 @0x55
+6:886  0:000  SPD[6]: Type 78 @0x56
+6:886  0:000  === [ GetAcpiTablesList ] =================================
+6:899  0:012  Get Acpi Tables List from RSDT:
+6:899  0:000   - [00]: FACP  TP-G2    len=244
+6:899  0:000   - [01]: SLIC  TP-G2    len=374
+6:899  0:000   - [02]: TCPA  LENOVO len=50
+6:899  0:000   - [03]: SSDT  TP-SSDT2 len=1032
+6:899  0:000   - [04]: SSDT  TP-SSDT1 len=51
+6:899  0:000   - [05]: SSDT  SataAhci len=1960
+6:899  0:000   - [06]: HPET  TP-G2    len=56
+6:899  0:000   - [07]: APIC  TP-G2    len=152
+6:899  0:000   - [08]: MCFG  TP-G2    len=60
+6:899  0:000   - [09]: ECDT  TP-G2    len=82
+6:899  0:000   - [10]: FPDT  TP-G2    len=100
+6:899  0:000   - [11]: ASF!  TP-G2    len=165
+6:899  0:000   - [12]: UEFI  TP-G2    len=62
+6:899  0:000   - [13]: UEFI  COMBUF len=66
+6:899  0:000   - [14]: POAT  TP-G2    len=85
+6:899  0:000   - [15]: SSDT  Cpu0Ist len=3193
+6:899  0:000   - [16]: SSDT  CpuPm len=2691
+6:899  0:000   - [17]: DMAR  SNB  len=176
+6:899  0:000   - [18]: UEFI  TP-G2    len=658
+6:899  0:000   - [19]: DBG2  TP-G2    len=233
+6:899  0:000   - [20]: BGRT  TP-G2    len=56
+6:899  0:000  Calibrated TSC Frequency = 2594109576 = 2594MHz
+6:899  0:000  === [ GetUserSettings ] ===================================
+6:899  0:000  USB FixOwnership: yes
+6:899  0:000  Dropping 1 tables:
+6:899  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+6:899  0:000           - set table: 52414D44,                0 to drop: yes
+6:899  0:000   - final DSDT Fix mask=40460054
+6:899  0:000  PatchesDSDT: 12 requested
+6:899  0:000   - [00]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [01]: (change EHC2 to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [02]: (change EUSB to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [03]: (change USBE to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [04]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [05]: (change HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [06]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [07]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [08]: (change AZAL to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [09]: (change XHCI to XHC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [10]: (change ALZA to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000   - [11]: (change XHC1 to XHC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+6:899  0:000  smartUPS: present
+6:899  0:000  Using ProductName from config: MacBookPro10,2
+6:899  0:000  Using latest BiosVersion from config
+6:899  0:000  BiosVersion: MBP102.88Z.F000.B00.1809171348
+6:899  0:000  BiosReleaseDate: 09/17/2018
+6:899  0:000  Using FirmwareFeatures from config: 0xE00DE137
+6:899  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+6:899  0:000  Board-ID set from config as Mac-AFD8A9D944EA4843
+6:899  0:000  BoardType: 0xA
+6:899  0:000  ChassisType: 0xA
+6:899  0:000  Converted CustomUUID 02DE1009-EA96-4351-BA23-78F25BDC44DE
+7:140  0:240  === [ ScanVolumes ] =======================================
+7:140  0:000  Found 7 volumes with blockIO
+7:140  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+7:144  0:004  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,5913A0DF-D3F2-4B2F-AB2E-87F5F55C29A3,0x28,0x64000)
+7:144  0:000          Result of bootcode detection: bootable unknown (legacy)
+7:144  0:000          This is SelfVolume !!
+7:144  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)
+7:156  0:011          Result of bootcode detection: bootable unknown (legacy)
+7:156  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0F28B53FB1560F42979A0D0999C3C4E0)
+7:156  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0F3F8985F7E0A23EB2F561606F604396)
+7:156  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,37A8F3F46F06D54584819413B8B9980E)
+7:156  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,671B04BD71D9F7479EA56FCA2F2D7E52)
+7:157  0:000  PutNvramPlistToRtVars: nvram.plist not found
+7:157  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+7:157  0:000  found AppleSMC protocol
+7:157  0:000  Registered 17 SMC keys
+7:157  0:000  === [ ScanLoader ] ========================================
+7:157  0:000  - [01]: 'EFI'
+7:158  0:000          AddLoaderEntry for Volume Name=EFI
+7:158  0:000          skipped because entry is hidden
+7:158  0:000  - [03]: 'Preboot'
+7:171  0:013          AddLoaderEntry for Volume Name=Preboot
+7:188  0:016      hibernated: set as never
+7:189  0:001          AddLoaderEntry for Volume Name=Preboot
+7:214  0:025  - [04]: 'Macintosh HD'
+7:361  0:146          AddLoaderEntry for Volume Name=Macintosh HD
+7:410  0:048      hibernated: set as never
+7:817  0:407          AddLoaderEntry for Volume Name=Macintosh HD
+7:817  0:000          skipped because entry is hidden
+7:817  0:000  - [05]: 'Recovery'
+7:819  0:002          AddLoaderEntry for Volume Name=Recovery
+7:831  0:011  - [06]: 'VM'
+7:831  0:000  EmuVariable InstallEmulation: EFI_ALREADY_STARTED
+7:831  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+7:831  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,1A0922CF-C586-4E29-80F8-8F17D5485E49,0x64028,0x94F2A98)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F117EA7741FF8E4EAB410696090D1014)
+7:831  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,1A0922CF-C586-4E29-80F8-8F17D5485E49,0x64028,0x94F2A98)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F117EA7741FF8E4EAB410696090D1014)'
+7:831  0:000    - LoaderPath: '<null string>'
+7:831  0:000    - Guid = 1A0922CF-C586-4E29-80F8-8F17D5485E49
+7:831  0:000  === [ FindStartupDiskVolume ] =============================
+7:831  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,1A0922CF-C586-4E29-80F8-8F17D5485E49,0x64028,0x94F2A98)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F117EA7741FF8E4EAB410696090D1014)
+7:831  0:000     - searching for that partition
+7:831  0:000      - [!] not found
+7:831  0:000     - searching again, but comparing Media dev path nodes
+7:831  0:000      - [!] not found
+7:831  0:000  Default boot entry not found
+7:831  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+7:831  0:000  DefaultIndex=-1 and MainMenu.EntryCount=4
+7:856  0:025  Using embedded font: Success
+7:858  0:001  GUI ready
+45:128  37:270  ReinitSelfLib after theme change
+45:128  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,5913A0DF-D3F2-4B2F-AB2E-87F5F55C29A3,0x28,0x64000)
+45:129  0:000  === [ ScanVolumes ] =======================================
+45:129  0:000  Found 7 volumes with blockIO
+45:129  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+45:139  0:010  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,5913A0DF-D3F2-4B2F-AB2E-87F5F55C29A3,0x28,0x64000)
+45:139  0:000          Result of bootcode detection: bootable unknown (legacy)
+45:139  0:000          This is SelfVolume !!
+45:139  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)
+45:150  0:011          Result of bootcode detection: bootable unknown (legacy)
+45:150  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0F28B53FB1560F42979A0D0999C3C4E0)
+45:150  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0F3F8985F7E0A23EB2F561606F604396)
+45:150  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,37A8F3F46F06D54584819413B8B9980E)
+45:150  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,671B04BD71D9F7479EA56FCA2F2D7E52)
+45:151  0:000  === [ ScanLoader ] ========================================
+45:151  0:000  - [01]: 'EFI'
+45:151  0:000          AddLoaderEntry for Volume Name=EFI
+45:151  0:000       skipped because path `PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,5913A0DF-D3F2-4B2F-AB2E-87F5F55C29A3,0x28,0x64000)\EFI\BOOT\BOOTX64.efii` is self path!
+45:151  0:000  - [03]: 'Preboot'
+45:154  0:002          AddLoaderEntry for Volume Name=Preboot
+45:165  0:010      hibernated: set as never
+45:166  0:001          AddLoaderEntry for Volume Name=Preboot
+45:184  0:018  - [04]: 'Macintosh HD'
+45:199  0:015          AddLoaderEntry for Volume Name=Macintosh HD
+45:212  0:012      hibernated: set as never
+45:562  0:349          AddLoaderEntry for Volume Name=Macintosh HD
+45:562  0:000  - [05]: 'Recovery'
+45:564  0:002          AddLoaderEntry for Volume Name=Recovery
+45:583  0:018  - [06]: 'VM'
+45:584  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+45:655  0:071  === [ GetEfiBootDeviceFromNvram ] =========================
+45:655  0:000  === [ FindStartupDiskVolume ] =============================
+45:655  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,1A0922CF-C586-4E29-80F8-8F17D5485E49,0x64028,0x94F2A98)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F117EA7741FF8E4EAB410696090D1014)
+45:655  0:000     - searching for that partition
+45:655  0:000      - [!] not found
+45:655  0:000     - searching again, but comparing Media dev path nodes
+45:655  0:000      - [!] not found
+45:655  0:000  Default boot entry not found
+45:655  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+45:655  0:000  DefaultIndex=-1 and MainMenu.EntryCount=5
+46:340  0:684  Found UEFI Acpi 2.0 RSDP at DAFFE014
+46:340  0:000  Saving ACPI tables from RSDP DAFFE014 to EFI\CLOVER\ACPI\origin ...
+46:340  0:000   DAFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+46:343  0:003    (Xsdt: DAFFE170, Rsdt: DAFFE0D4)
+46:343  0:000    DAFFE170: 'XSDT', 'TP-G2', Rev: 1, Len: 204 -> XSDT.aml
+46:346  0:003    DAFFE0D4: 'RSDT', 'TP-G2', Rev: 1, Len: 120 -> RSDT.aml
+46:350  0:003    Tables in Xsdt: 21
+46:350  0:000    0. DAFE5000: 'FACP', 'TP-G2', Rev: 5, Len: 268 -> FACP.aml
+46:353  0:003        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: DAFE7000, XFacs: 0)
+46:353  0:000        DAFE7000: 'DSDT', 'TP-G2', Rev: 1, Len: 70531 -> DSDT.aml
+46:360  0:006        DAF5A000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+46:363  0:003    1. DAFFD000: 'SLIC', 'TP-G2', Rev: 1, Len: 374 -> SLIC.aml
+46:367  0:003    2. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50 -> TCPA.aml
+46:371  0:004    3. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032 -> SSDT-0-TP-SSDT2.aml
+46:377  0:006    4. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51 -> SSDT-1-TP-SSDT1.aml
+46:381  0:003    5. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1960 -> SSDT-2-SataAhci.aml
+46:385  0:004    6. DAFE3000: 'HPET', 'TP-G2', Rev: 1, Len: 56 -> HPET.aml
+46:389  0:004    7. DAFE2000: 'APIC', 'TP-G2', Rev: 1, Len: 152 -> APIC.aml
+46:393  0:004    8. DAFE1000: 'MCFG', 'TP-G2', Rev: 1, Len: 60 -> MCFG.aml
+46:397  0:004    9. DAFE0000: 'ECDT', 'TP-G2', Rev: 1, Len: 82 -> ECDT.aml
+46:401  0:003    10. DAFDF000: 'FPDT', 'TP-G2', Rev: 1, Len: 100 -> FPDT.aml
+46:406  0:004    11. DAFE6000: 'ASF!', 'TP-G2', Rev: 32, Len: 165 -> ASF!.aml
+46:410  0:004    12. DAFDE000: 'UEFI', 'TP-G2', Rev: 1, Len: 62 -> UEFI.aml
+46:414  0:004    13. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66 -> UEFI.aml
+46:422  0:007    14. DAFDC000: 'POAT', 'TP-G2', Rev: 3, Len: 85 -> POAT.aml
+46:426  0:004    15. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3193 -> SSDT-3-Cpu0Ist.aml
+46:430  0:004    16. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691 -> SSDT-4-CpuPm.aml (Found hidden SSDT 4 pcs)
+46:434  0:003        * D34A4018: 'PEDA', ' DJÓ', Rev: 160, Len: 0  50 45 44 41 00 00 00 00 A0 41 4A D3 00 00 00 00 
+46:434  0:000        * DAE3DA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 83 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x4_0-ApIst.aml
+46:438  0:004        * DAE3C018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2561  53 53 44 54 01 0A 00 00 01 ED 50 6D 52 65 66 00 Internal length = 2561 -> SSDT-x4_1-Cpu0Cst.aml
+46:442  0:003        * DAE3BD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F9 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_2-ApCst.aml
+46:447  0:005  
+46:447  0:000    17. DAFD9000: 'DMAR', 'SNB', Rev: 1, Len: 176 -> DMAR.aml
+46:450  0:003    18. DAFD8000: 'UEFI', 'TP-G2', Rev: 1, Len: 658 -> UEFI.aml
+46:456  0:006    19. DAFD7000: 'DBG2', 'TP-G2', Rev: 0, Len: 233 -> DBG2.aml
+46:460  0:003    20. DAFD6000: 'BGRT', 'TP-G2', Rev: 0, Len: 56 -> BGRT.aml
+46:464  0:003    Tables in Rsdt: 21
+46:464  0:000    0. DAFE4000: 'FACP', 'TP-G2', Rev: 4, Len: 244 -> RSDT-FACP.aml
+46:473  0:009        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: 0, XFacs: 0)
+46:473  0:000        DAFE7000: 'DSDT', 'TP-G2', Rev: 1, Len: 70531
+46:475  0:001        DAF5A000: 'FACS', Ver: 1, Len: 64
+46:475  0:000    1. DAFFD000: 'SLIC', 'TP-G2', Rev: 1, Len: 374
+46:475  0:000    2. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+46:475  0:000    3. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+46:475  0:000    4. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+46:475  0:000    5. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1960
+46:475  0:000    6. DAFE3000: 'HPET', 'TP-G2', Rev: 1, Len: 56
+46:475  0:000    7. DAFE2000: 'APIC', 'TP-G2', Rev: 1, Len: 152
+46:475  0:000    8. DAFE1000: 'MCFG', 'TP-G2', Rev: 1, Len: 60
+46:475  0:000    9. DAFE0000: 'ECDT', 'TP-G2', Rev: 1, Len: 82
+46:475  0:000    10. DAFDF000: 'FPDT', 'TP-G2', Rev: 1, Len: 100
+46:475  0:000    11. DAFE6000: 'ASF!', 'TP-G2', Rev: 32, Len: 165
+46:475  0:000    12. DAFDE000: 'UEFI', 'TP-G2', Rev: 1, Len: 62
+46:475  0:000    13. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+46:475  0:000    14. DAFDC000: 'POAT', 'TP-G2', Rev: 3, Len: 85
+46:475  0:000    15. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3193
+46:475  0:000    16. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+46:475  0:000    17. DAFD9000: 'DMAR', 'SNB', Rev: 1, Len: 176
+46:475  0:000    18. DAFD8000: 'UEFI', 'TP-G2', Rev: 1, Len: 658
+46:475  0:000    19. DAFD7000: 'DBG2', 'TP-G2', Rev: 0, Len: 233
+46:475  0:000    20. DAFD6000: 'BGRT', 'TP-G2', Rev: 0, Len: 56
+46:475  0:000  Found UEFI Acpi 1.0 RSDP at DAFFE000
+46:475  0:000  Printing ACPI tables from RSDP DAFFE000 ...
+46:475  0:000   DAFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+46:475  0:000    (Rsdt: DAFFE038)
+46:475  0:000    DAFFE038: 'RSDT', 'TP-G2', Rev: 1, Len: 116
+46:475  0:000    Tables in Rsdt: 20
+46:475  0:000    0. DAFE4000: 'FACP', 'TP-G2', Rev: 4, Len: 244
+46:475  0:000        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: 0, XFacs: 0)
+46:475  0:000        DAFE7000: 'DSDT', 'TP-G2', Rev: 1, Len: 70531
+46:477  0:001        DAF5A000: 'FACS', Ver: 1, Len: 64
+46:477  0:000    1. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+46:477  0:000    2. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+46:477  0:000    3. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+46:477  0:000    4. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1960
+46:477  0:000    5. DAFE3000: 'HPET', 'TP-G2', Rev: 1, Len: 56
+46:477  0:000    6. DAFE2000: 'APIC', 'TP-G2', Rev: 1, Len: 152
+46:477  0:000    7. DAFE1000: 'MCFG', 'TP-G2', Rev: 1, Len: 60
+46:477  0:000    8. DAFE0000: 'ECDT', 'TP-G2', Rev: 1, Len: 82
+46:477  0:000    9. DAFDF000: 'FPDT', 'TP-G2', Rev: 1, Len: 100
+46:477  0:000    10. DAFE6000: 'ASF!', 'TP-G2', Rev: 32, Len: 165
+46:477  0:000    11. DAFDE000: 'UEFI', 'TP-G2', Rev: 1, Len: 62
+46:477  0:000    12. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+46:477  0:000    13. DAFDC000: 'POAT', 'TP-G2', Rev: 3, Len: 85
+46:477  0:000    14. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3193
+46:477  0:000    15. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+46:477  0:000    16. DAFD9000: 'DMAR', 'SNB', Rev: 1, Len: 176
+46:477  0:000    17. DAFD8000: 'UEFI', 'TP-G2', Rev: 1, Len: 658
+46:477  0:000    18. DAFD7000: 'DBG2', 'TP-G2', Rev: 0, Len: 233
+46:477  0:000    19. DAFD6000: 'BGRT', 'TP-G2', Rev: 0, Len: 56
+46:996  0:519  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+47:004  0:008  === [ FixBiosDsdt ] =======================================
+47:004  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+47:004  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+47:004  0:000  VideoCard devID=0x1668086
+47:004  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+47:005  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=1 (0x1)
+47:005  0:000  Found Airport Atheros at 0x1C0001, 0x0, DeviceID=0x002B
+47:005  0:000  Patching DSDT:
+47:005  0:000   - [change EHC1 to EH01]: pattern 45484331, patched at: [ (C2B) (773C) (126F) (47FB) (4A) ]
+47:005  0:000   - [change EHC2 to EH02]: pattern 45484332, patched at: [ (C3F) (7C33) (5537) ]
+47:005  0:000   - [change EUSB to EH01]: pattern 45555342, bin not found / already patched!
+47:005  0:000   - [change USBE to EH02]: pattern 55534245, bin not found / already patched!
+47:005  0:000   - [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+47:005  0:000   - [change HDAS to HDEF]: pattern 48444153, patched at: [ (6BC5) (6DB0) (1D7) ]
+47:005  0:000   - [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+47:005  0:000   - [change SAT0 to SATA]: pattern 53415430, bin not found / already patched!
+47:005  0:000   - [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+47:005  0:000   - [change XHCI to XHC]: pattern 58484349, patched at: [ (2361) (8) (58E1) (81D) (4C) (54) (4D) (55) (4D) (73) (4D) (D85) (C) (A) (B) (C) (A) (78) (D) (A) (C) (D) (A) (79) (D) (4E89) (25) (3A) (F) (13) (3A) (F) (1FA) (25) (3A) (F) (13) (3A) (F) ]
+47:006  0:000   - [change ALZA to HDEF]: pattern 414C5A41, bin not found / already patched!
+47:006  0:000   - [change XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+47:006  0:000    0 replacements
+47:006  0:000  first CPU found at 2B offset 2E
+47:006  0:000  score candidate at 27
+47:006  0:000  score inserted in acpi_cpu_score _PR_
+47:006  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+47:006  0:000  Start RTC Fix
+47:006  0:000  found RTC Length not match, Maybe will cause CMOS reset will patch it.
+47:006  0:000  Start TMR Fix
+47:006  0:000  Start PIC Fix
+47:006  0:000  PIC size=30 at 4191
+47:006  0:000  Start HPET Fix
+47:007  0:000   deleting device CRT_
+47:007  0:000   deleting device DVI_
+47:007  0:000   deleting device SPKR
+47:008  0:000   deleting device ECP_
+47:008  0:000   deleting device LPT_
+47:008  0:000   deleting device FDC0
+47:008  0:000   deleting device ECP1
+47:009  0:000   deleting device LPT1
+47:009  0:000  Start Mutex Fix
+47:009  0:000  Start SHUTDOWN Fix len=FFAB
+47:014  0:004  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-40460054.aml
+49:398  2:384  QueryMode 1 Status=Success
+49:423  0:025  Video mode change to mode #1: Success
+52:226  2:803  QueryMode 2 Status=Success
+52:257  0:030  Video mode change to mode #2: Success
+55:094  2:836  QueryMode 3 Status=Success
+55:135  0:040  Video mode change to mode #3: Success
+56:729  1:594  ReinitSelfLib after theme change
+56:730  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,5913A0DF-D3F2-4B2F-AB2E-87F5F55C29A3,0x28,0x64000)
+56:730  0:000  === [ ScanVolumes ] =======================================
+56:730  0:000  Found 7 volumes with blockIO
+56:730  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+56:730  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,5913A0DF-D3F2-4B2F-AB2E-87F5F55C29A3,0x28,0x64000)
+56:730  0:000          Result of bootcode detection: bootable unknown (legacy)
+56:730  0:000          This is SelfVolume !!
+56:730  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)
+56:751  0:021          Result of bootcode detection: bootable unknown (legacy)
+56:751  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0F28B53FB1560F42979A0D0999C3C4E0)
+56:751  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0F3F8985F7E0A23EB2F561606F604396)
+56:751  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,37A8F3F46F06D54584819413B8B9980E)
+56:751  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA584BDF-F531-49D6-9E84-059202B081CE,0x64028,0x253CAA60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,671B04BD71D9F7479EA56FCA2F2D7E52)
+56:752  0:000  PutNvramPlistToRtVars: nvram.plist not found
+56:752  0:000  === [ ScanLoader ] ========================================
+56:752  0:000  - [01]: 'EFI'
+56:753  0:000          AddLoaderEntry for Volume Name=EFI
+56:753  0:000       skipped because path `PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,5913A0DF-D3F2-4B2F-AB2E-87F5F55C29A3,0x28,0x64000)\EFI\BOOT\BOOTX64.efii` is self path!
+56:753  0:000  - [03]: 'Preboot'
+56:755  0:002          AddLoaderEntry for Volume Name=Preboot
+56:765  0:010      hibernated: set as never
+56:767  0:001          AddLoaderEntry for Volume Name=Preboot
+56:785  0:018  - [04]: 'Macintosh HD'
+56:800  0:015          AddLoaderEntry for Volume Name=Macintosh HD
+56:813  0:012      hibernated: set as never
+57:163  0:350          AddLoaderEntry for Volume Name=Macintosh HD
+57:164  0:000  - [05]: 'Recovery'
+57:166  0:002          AddLoaderEntry for Volume Name=Recovery
+57:184  0:018  - [06]: 'VM'
+57:185  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+57:257  0:072  === [ GetEfiBootDeviceFromNvram ] =========================
+57:257  0:000  === [ FindStartupDiskVolume ] =============================
+57:257  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,1A0922CF-C586-4E29-80F8-8F17D5485E49,0x64028,0x94F2A98)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F117EA7741FF8E4EAB410696090D1014)
+57:257  0:000     - searching for that partition
+57:257  0:000      - [!] not found
+57:257  0:000     - searching again, but comparing Media dev path nodes
+57:257  0:000      - [!] not found
+57:257  0:000  Default boot entry not found
+57:257  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+57:257  0:000  DefaultIndex=-1 and MainMenu.EntryCount=5
+60:598  3:340  BootVariable of the entry is empty
+60:598  0:000  === [ StartLoader ] =======================================
+60:598  0:000  Finally: ExternalClock=24MHz BusSpeed=99773kHz CPUFreq=2594MHz PIS: hw.busfrequency=96000000Hz
+60:598  0:000  Loading BOOTX64.efi  status=Success
+60:675  0:077  SetStartupDiskVolume:
+60:675  0:000    * Volume: 'Macintosh HD'
+60:675  0:000    * LoaderPath: '\EFI\BOOT\BOOTX64.efi'
+60:675  0:000    * DevPath: Macintosh HD
+60:675  0:000    * GUID = BA584BDF-F531-49D6-9E84-059202B081CE
+60:676  0:001    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>BA584BDF-F531-49D6-9E84-059202B081CE</string></dict></dict></dict></array>
+60:678  0:001  Custom boot is using theme logo
+60:678  0:000  Closing log
